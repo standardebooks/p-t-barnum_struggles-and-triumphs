@@ -1,6 +1,10 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+header{
+	text-align: center;
+}
+
 footer{
 	text-align: right;
 }
@@ -75,10 +79,6 @@ section[epub|type~="dedication"] p{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
-	font-style: normal;
-}
-
 [epub|type~="z3998:verse"] p{
 	text-align: left;
 	text-indent: 0;
@@ -107,17 +107,32 @@ p span.i1{
 	padding-left: 2em;
 }
 
-p span.i2{
-	text-indent: -1em;
-	padding-left: 3em;
-}
-
 table{
 	width: 90%;
-	border:0;
+	border: 0;
 	font-size: 80%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+td.left-align{
+	text-align: left;
+}
+
+td.right-align{
+	text-align: right;
+}
+
+td.center-align{
+	text-align: center;
+}
+
+td.top-align{
+	vertical-align: top;
+}
+
+td.bottom-align{
+	vertical-align: bottom;
 }
 
 blockquote.tablenote{
@@ -139,4 +154,9 @@ blockquote.notice{
 img.character-symbol{
 	height: 1em;
 	vertical-align: middle;
+}
+
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
 }
