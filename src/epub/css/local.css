@@ -151,9 +151,10 @@ blockquote.notice{
 	font-variant: small-caps;
 }
 
-img.character-symbol{
+#chapter-15 img{
 	height: 1em;
 	vertical-align: middle;
+	margin-right: .5em;
 }
 
 span[epub|type~="subtitle"]{
