@@ -3,11 +3,17 @@
 
 header{
 	text-align: center;
+	margin-bottom: 1em;
 }
 
 footer{
 	margin-top: 1em;
 	text-align: right;
+}
+
+blockquote > header {
+	text-align: center;
+	font-variant: small-caps;
 }
 
 section[epub|type~="dedication"] p{
@@ -111,20 +117,26 @@ p span.i1{
 table{
 	width: 90%;
 	border: 0;
-	font-size: 80%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: .5em;
+	margin-bottom: .5em;
 }
 
-td.left-align{
+th{
+	font-variant: small-caps;
+	font-weight: normal;
+}
+
+.left-align{
 	text-align: left;
 }
 
-td.right-align{
+.right-align{
 	text-align: right;
 }
 
-td.center-align{
+.center-align{
 	text-align: center;
 }
 
@@ -136,11 +148,8 @@ td.bottom-align{
 	vertical-align: bottom;
 }
 
-blockquote.tablenote{
-	width: 90%;
-	font-size: 80%;
-	margin-left: auto;
-	margin-right: auto;
+td.totalled{
+	border-top: 1px solid black;
 }
 
 blockquote.literary{
