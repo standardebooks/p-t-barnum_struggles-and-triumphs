@@ -11,7 +11,7 @@ footer{
 	text-align: right;
 }
 
-blockquote > header {
+blockquote > header{
 	text-align: center;
 	font-variant: small-caps;
 }
@@ -140,28 +140,15 @@ th{
 	text-align: center;
 }
 
-td.top-align{
-	vertical-align: top;
-}
-
 td.bottom-align{
 	vertical-align: bottom;
 }
 
 td.totalled{
-	border-top: 1px solid black;
+	border-top: 1px solid;
 }
 
-blockquote.literary{
-	text-align: center;
-}
-
-blockquote.notice{
-	text-align: center;
-	font-variant: small-caps;
-}
-
-#chapter-15 img{
+#chapter-9 img{
 	height: 1em;
 	vertical-align: middle;
 	margin-right: .5em;
