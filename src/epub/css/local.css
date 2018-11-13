@@ -115,12 +115,29 @@ p span.i1{
 }
 
 table{
-	width: 90%;
-	border: 0;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: .5em;
-	margin-bottom: .5em;
+	margin: 1em auto;
+	font-variant-numeric: tabular-nums;
+	border-collapse: collapse;
+}
+
+thead{
+	text-align: right;
+}
+
+thead p{
+	text-align: center;
+	text-indent: 0;
+}
+
+table tr td{
+	padding: .1em .5em;
+	vertical-align: top;
+}
+
+table:first-of-type tr:nth-child(3),
+.total,
+.total td{
+	border-top: 1px solid;
 }
 
 th{
@@ -128,24 +145,8 @@ th{
 	font-weight: normal;
 }
 
-.left-align{
-	text-align: left;
-}
-
 .right-align{
 	text-align: right;
-}
-
-.center-align{
-	text-align: center;
-}
-
-td.bottom-align{
-	vertical-align: bottom;
-}
-
-td.totalled{
-	border-top: 1px solid;
 }
 
 #chapter-9 img{
