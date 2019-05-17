@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Struggles and Triumphs</dc:title>
 		<meta property="file-as" refines="#title">Struggles and Triumphs</meta>
 		<meta property="title-type" refines="#title">main</meta>
@@ -38,20 +38,20 @@
 		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Barnum, P. T. (Phineas Taylor), 1810-1891</dc:subject>
 		<dc:subject id="subject-2">Circus owners -- United States -- Biography</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/50115</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/50115</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh2009119744</meta>
 		<meta property="se:subject">Autobiography</meta>
 		<meta property="se:subject">Memoir</meta>
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">The world’s greatest showman tells the story of his life.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Struggles and Triumphs&lt;/i&gt; is the autobiography of P. T. Barnum, the celebrated American showman. Though subtitled &lt;i&gt;Forty Years’ Recollections&lt;/i&gt;, it covers a period of over 60 years, from his birth in 1810, to the later years of his career in the 1870s.&lt;/p&gt;
 			&lt;p&gt;Barnum has an engaging style, and his autobiography is crammed with many amusing and interesting incidents as he tells how he learned to make money entertaining the public through circuses, “freak shows,” theatrical presentations, concert tours and the like. On the way he builds up an impressive fortune, only to lose it all through a fraudulous speculation perpetrated on him. Then he starts again, pays off his debts and builds up another, greater fortune. Though often labelled as a “humbug” or “a mere charlatan” it’s clear that the majority of his contemporary Americans held him in affectionate regard.&lt;/p&gt;
 			&lt;p&gt;However modern readers may be upset by Barnum’s rather cavalier treatment of the animals under his care in the various menageries and aquariums he created, and be distressed by the details of how they were lost in the several fires which destroyed Barnum’s Museums.&lt;/p&gt;
 			&lt;p&gt;Also of great interest are Barnum’s philanthropic endeavours: lecturing on teetotalism; supporting negro equality; and funding civic developments.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/50115</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100855755</dc:source>
