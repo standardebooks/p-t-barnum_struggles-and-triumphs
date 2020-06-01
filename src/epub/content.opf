@@ -59,7 +59,7 @@
 		<meta property="se:reading-ease.flesch">54.05</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/p-t-barnum_struggles-and-triumphs</meta>
 		<dc:creator id="author">P. T. Barnum</dc:creator>
-		<meta property="file-as" refines="#author">Barnum</meta>
+		<meta property="file-as" refines="#author">Barnum, P. T.</meta>
 		<meta property="se:name.person.full-name" refines="#author">Phineas Taylor Barnum</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/P._T._Barnum</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80025758</meta>
