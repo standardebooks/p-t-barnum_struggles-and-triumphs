@@ -164,8 +164,3 @@ th{
 #chapter-18 blockquote:first-of-type p + p{
 	font-variant: normal;
 }
-
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
