@@ -155,7 +155,8 @@ th{
 	font-variant: normal;
 }
 
-#appendix-2 p:nth-last-of-type(3){
+#appendix-2 > p:nth-last-of-type(3){
 	margin: 1em;
 	text-align: center;
+	text-indent: 0;
 }
