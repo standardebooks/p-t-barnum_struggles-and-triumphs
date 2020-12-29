@@ -25,7 +25,7 @@ section[epub|type~="dedication"] p{
 
 [epub|type~="z3998:letter"] header{
 	margin-bottom: 1em;
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="z3998:letter"] footer{
@@ -34,12 +34,12 @@ section[epub|type~="dedication"] p{
 
 [epub|type~="z3998:letter"] footer blockquote,
 [epub|type~="z3998:letter"] footer blockquote + p{
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="z3998:verse"] header{
 	margin-bottom: 1em;
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -51,13 +51,13 @@ section[epub|type~="dedication"] p{
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 	text-indent: 0;
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="z3998:recipient"]{
 	font-variant: small-caps;
 	text-indent: 0;
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="z3998:valediction"]{
@@ -72,7 +72,7 @@ section[epub|type~="dedication"] p{
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
 	text-indent: 0;
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="z3998:signature"]{
@@ -92,7 +92,7 @@ section[epub|type~="dedication"] p{
 }
 
 [epub|type~="z3998:verse"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
