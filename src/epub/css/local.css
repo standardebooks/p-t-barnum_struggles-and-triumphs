@@ -32,6 +32,11 @@ section[epub|type~="dedication"] p{
 	margin-top: 1em;
 }
 
+[epub|type~="z3998:letter"] footer blockquote,
+[epub|type~="z3998:letter"] footer blockquote + p{
+	text-align: left;
+}
+
 [epub|type~="z3998:verse"] header{
 	margin-bottom: 1em;
 	text-align: left;
@@ -158,5 +163,9 @@ th{
 #appendix-2 > p:nth-last-of-type(3){
 	margin: 1em;
 	text-align: center;
+	text-indent: 0;
+}
+
+#chapter-40 blockquote[epub|type~="z3998:letter"] header + p + p{
 	text-indent: 0;
 }
