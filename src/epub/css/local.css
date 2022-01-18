@@ -146,7 +146,9 @@ th{
 	font-weight: normal;
 }
 
-.right-align{
+#chapter-22 table:first-of-type tbody td:first-child,
+#chapter-22 table:first-of-type tbody td:last-child,
+#chapter-22 table ~ table tbody td + td{
 	text-align: right;
 }
 
