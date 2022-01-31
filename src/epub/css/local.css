@@ -2,8 +2,8 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 header{
-	text-align: center;
 	margin-bottom: 1em;
+	text-align: center;
 }
 
 footer{
@@ -12,13 +12,13 @@ footer{
 }
 
 blockquote > header{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 section[epub|type~="dedication"] p{
-	margin-top: 5em;
 	font-variant: small-caps;
+	margin-top: 5em;
 	text-align: center;
 	text-indent: 0;
 }
@@ -44,20 +44,20 @@ section[epub|type~="dedication"] p{
 }
 
 [epub|type~="se:letter.dateline"]{
-	text-align: right;
 	font-style: italic;
+	text-align: right;
 }
 
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
-	text-indent: 0;
 	text-align: initial;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:recipient"]{
 	font-variant: small-caps;
-	text-indent: 0;
 	text-align: initial;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:valediction"]{
@@ -71,8 +71,8 @@ section[epub|type~="dedication"] p{
 
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
-	text-indent: 0;
 	text-align: initial;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:signature"]{
@@ -82,10 +82,10 @@ section[epub|type~="dedication"] p{
 [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
-	margin-top: 0;
-	margin-right: auto;
 	margin-bottom: 3em;
 	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
 	max-width: 60%;
 	text-align: justify;
 	text-indent: 0;
@@ -116,9 +116,9 @@ p span.i1{
 }
 
 table{
-	margin: 1em auto;
-	font-variant-numeric: tabular-nums;
 	border-collapse: collapse;
+	font-variant-numeric: tabular-nums;
+	margin: 1em auto;
 }
 
 thead{
@@ -154,8 +154,8 @@ th{
 
 #chapter-9 img{
 	height: 1em;
-	vertical-align: middle;
 	margin-right: .5em;
+	vertical-align: middle;
 }
 
 #chapter-18 blockquote:first-of-type p + p{
