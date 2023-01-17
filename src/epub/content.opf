@@ -40,7 +40,7 @@
 		<dc:subject id="subject-1">Barnum, P. T. (Phineas Taylor), 1810-1891</dc:subject>
 		<dc:subject id="subject-2">Circus owners -- United States -- Biography</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="term" refines="#subject-1">n80025758</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2009119744</meta>
 		<meta property="se:subject">Autobiography</meta>
