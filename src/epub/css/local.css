@@ -141,6 +141,10 @@ table:first-of-type tr:nth-child(3),
 	border-top: 1px solid;
 }
 
+table caption{
+	font-variant: small-caps;
+}
+
 th{
 	font-variant: small-caps;
 	font-weight: normal;
