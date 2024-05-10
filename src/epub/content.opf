@@ -57,7 +57,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/50115</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100855755</dc:source>
 		<meta property="se:word-count">246101</meta>
-		<meta property="se:reading-ease.flesch">54.05</meta>
+		<meta property="se:reading-ease.flesch">54.26</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/p-t-barnum_struggles-and-triumphs</meta>
 		<dc:creator id="author">P. T. Barnum</dc:creator>
 		<meta property="file-as" refines="#author">Barnum, P. T.</meta>
