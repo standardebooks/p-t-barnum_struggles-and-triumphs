@@ -44,7 +44,6 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2009119744</meta>
 		<meta property="se:subject">Autobiography</meta>
-		<meta property="se:subject">Memoir</meta>
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">The world’s greatest showman tells the story of his life.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
