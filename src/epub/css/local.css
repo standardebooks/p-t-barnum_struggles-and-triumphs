@@ -175,3 +175,7 @@ th{
 #chapter-40 blockquote[epub|type~="z3998:letter"] header + p + p{
 	text-indent: 0;
 }
+
+.telegram{
+	font-variant: all-small-caps;
+}
