@@ -125,9 +125,9 @@ thead{
 	text-align: right;
 }
 
-thead p{
-	text-align: center;
-	text-indent: 0;
+thead th{
+	font-variant: small-caps;
+	font-weight: normal;
 }
 
 table tr td{
@@ -143,11 +143,11 @@ table:first-of-type tr:nth-child(3),
 
 table caption{
 	font-variant: small-caps;
+	margin-bottom: 1em;
 }
 
-th{
-	font-variant: small-caps;
-	font-weight: normal;
+table caption p + p{
+	text-indent: 0;
 }
 
 #chapter-22 table:first-of-type tbody td:first-child,
