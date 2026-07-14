@@ -37,7 +37,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">Struggles and Triumphs: Or, Forty Years’ Recollections</dc:title>
 		<meta property="file-as" refines="#fulltitle">Struggles and Triumphs: Or, Forty Years’ Recollections</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Barnum, P. T. (Phineas Taylor), 1810-1891</dc:subject>
 		<dc:subject id="subject-2">Circus owners -- United States -- Biography</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
