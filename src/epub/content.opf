@@ -70,8 +70,9 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
-		<dc:contributor id="artist">George Wesley Bellows</dc:contributor>
-		<meta property="file-as" refines="#artist">Bellows, George Wesley</meta>
+		<dc:contributor id="artist">George Bellows</dc:contributor>
+		<meta property="file-as" refines="#artist">Bellows, George</meta>
+		<meta property="schema:alternateName" refines="#artist">George Wesley Bellows</meta>
 		<link href="https://en.wikipedia.org/wiki/George_Bellows" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50007142.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
