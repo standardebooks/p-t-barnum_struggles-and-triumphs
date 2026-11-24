@@ -56,7 +56,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/50115</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100855755</dc:source>
-		<meta property="schema:wordCount">245044</meta>
+		<meta property="schema:wordCount">245037</meta>
 		<meta property="schema:educationalLevel">54.26</meta>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
